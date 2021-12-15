@@ -6,6 +6,7 @@ npm install
 ```
 
 create a .env file and add following data in it
+
 base url for the apis
 ```
 VUE_APP_API_URI = https://kyupid-api.vercel.app/api
