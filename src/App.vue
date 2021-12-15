@@ -2,21 +2,21 @@
   <div>
     <Map />
     <ToolTip />
-    <!-- <Console /> -->
+    <Console />
   </div>
 </template>
 
 <script>
 import Map from "./components/map.vue";
 import ToolTip from "./components/toolTip.vue";
-// import Console from "./components/console.vue";
+import Console from "./components/console.vue";
 
 export default {
   name: "App",
   components: {
     Map,
     ToolTip,
-    // Console,
+    Console,
   },
   mounted: async function () {
     this.$store.dispatch("setMapAreasData");
